@@ -9,11 +9,11 @@ using cloudFileUploader.Models;
 
 namespace cloudFileUploader.Controllers
 {
-    public class HomeController : Controller
+    public class homeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<homeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public homeController(ILogger<homeController> logger)
         {
             _logger = logger;
         }

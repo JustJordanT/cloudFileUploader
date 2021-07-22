@@ -1,0 +1,19 @@
+﻿@model IEnumerable<string>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="AddFile" asp-controller="BlobFiles" class="btn btn-success">Add Blob</a>
+    </div>
+    <div class="col-md-12">
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>
+                    <a asp-action="ViewFile" asp-controller="blobFiles" asp-route-name="@item">
+                        @item
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
