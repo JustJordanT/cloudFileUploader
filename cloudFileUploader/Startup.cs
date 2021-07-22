@@ -13,9 +13,9 @@ using Microsoft.Extensions.Hosting;
 
 namespace cloudFileUploader
 {
-    public class Startup
+    public class startup
     {
-        public Startup(IConfiguration configuration)
+        public startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
@@ -32,7 +32,7 @@ namespace cloudFileUploader
             services.AddSingleton(x => new BlobServiceClient(blobConnection));
             
             //Injecting the blob service into the DI
-            services.AddSingleton<IBlobService, BlobService>();
+            services.AddSingleton<IBlobService, blobService>();
             
             
             services.AddControllersWithViews();
