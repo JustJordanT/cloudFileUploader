@@ -4,13 +4,17 @@ using System.Threading.Tasks;
 using cloudFileUploader.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
 
 //TODO need to find our why the rest of the methods are not working and need to have some unit tests as well.
 namespace cfuAPI.Controllers
 {
-    // [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
+    [ApiController]
     // [ApiController]
-    public class blobFilesController : Controller
+    // [Route("[controller]")]
+    public class blobFilesController : ControllerBase
     {
         private readonly IBlobService _blobService;
 
