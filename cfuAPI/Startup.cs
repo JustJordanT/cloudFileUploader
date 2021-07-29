@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Azure.Storage.Blobs;
 using cfuAPI.Services;
-using cloudFileUploader.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

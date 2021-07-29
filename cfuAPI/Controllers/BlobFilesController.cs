@@ -1,11 +1,11 @@
 using System;
 using System.IO;
 using System.Threading.Tasks;
-using cloudFileUploader.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
+using cfuAPI.Services;
 
 //TODO need to find our why the rest of the methods are not working and need to have some unit tests as well.
 namespace cfuAPI.Controllers
@@ -30,18 +30,19 @@ namespace cfuAPI.Controllers
             return Ok(files);
         }
 
-        [HttpGet]
-        public IActionResult AddFile()
-        {
-            return Ok();
-        }
+        // [HttpGet]
+        // public IActionResult AddFile()
+        // {
+        //     return Ok();
+        // }
 
         [HttpPost]
-        public async Task<IActionResult> AddFile(IFormFile file)
+        public async Task<IActionResult> AddFile(IFormFile file, string name)
         {
             if(file == null || file.Length < 1) return Ok();
 
-            var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
+            // var fileName = Guid.NewGuid() + Path.GetExtension(file.FileName);
+            var fileName = name + Path.GetExtension(file.FileName);
 
             var res = await _blobService.UploadBlob(fileName, file, "images");
 

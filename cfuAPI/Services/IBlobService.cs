@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace cloudFileUploader.Services
+namespace cfuAPI.Services
 {
     public interface IBlobService
     {
