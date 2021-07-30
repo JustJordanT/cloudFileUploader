@@ -76,8 +76,7 @@ namespace cfuAPI.Services
             var blobClient = containerClient.GetBlobClient(name);
             
             //if the file exists the file wi;; be deleted.
-            //TODO THIS IS THE SECTION WHERE THE DELETE IS NOT WORKING THERE ARE DIFFERENT METHODS THAT CAN BE USED TO DELETE, THIS NEEDS TO BE LOOKED INTO!!!, MAY NEED TO OPEN A ISSUE WITH THE MS TEAM.
-            return await containerClient.DeleteIfExistsAsync();
+            return await blobClient.DeleteIfExistsAsync();
         }
     }
 }
