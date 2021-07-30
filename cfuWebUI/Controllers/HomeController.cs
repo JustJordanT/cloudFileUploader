@@ -27,6 +27,11 @@ namespace cfuWebUI.Controllers
         {
             return View();
         }
+        
+        public IActionResult Uploader()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
