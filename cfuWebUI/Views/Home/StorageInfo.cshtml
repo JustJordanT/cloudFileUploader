@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Storage Info";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to get information about contianer and files.</p>
+
+@model List<string>
+
+<div class="row";>
+    <div class="col-md-12">
+        @* TODO THIS NEEDS TO BE CORRECTED. *@
+        <a asp-action="Uploader" asp-controller="BlobUpload" class="btn btn-success">Submit</a>
+    </div>
+</div>
+
+
