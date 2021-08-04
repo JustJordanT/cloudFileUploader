@@ -8,7 +8,7 @@
 - [ ] Implament Dapr.
 - [ ] Implament Tye.
 - [ ] Implament Polly.
-- [ ] Implament BackEnd API.
+- [X] Implament BackEnd API.
 - [ ] Implament FrontEnd.
 - [ ] Implament Authentication.
 - [ ] Implament Clean Architecture.
