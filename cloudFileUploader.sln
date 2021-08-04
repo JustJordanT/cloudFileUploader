@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cfuAPI", "cfuAPI\cfuAPI.csproj", "{ACD38F3D-2F7B-4E29-977D-E2C29B252008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cfuWebUI", "cfuWebUI\cfuWebUI.csproj", "{9E46D6DF-7F4F-43E6-820C-127129D42DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD38F3D-2F7B-4E29-977D-E2C29B252008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD38F3D-2F7B-4E29-977D-E2C29B252008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD38F3D-2F7B-4E29-977D-E2C29B252008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD38F3D-2F7B-4E29-977D-E2C29B252008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E46D6DF-7F4F-43E6-820C-127129D42DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E46D6DF-7F4F-43E6-820C-127129D42DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E46D6DF-7F4F-43E6-820C-127129D42DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E46D6DF-7F4F-43E6-820C-127129D42DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
