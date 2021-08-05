@@ -16,6 +16,7 @@
 - [ ] Implament EFCore For Logging.
 - [ ] Implament Open Telemetry.
 - [ ] Implament Logging.
+- [x] Implament CircleCI CI/CD
   
 ## Usage/Examples
 
