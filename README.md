@@ -2,6 +2,8 @@
 ☁️ This is a service that will allow you to upload your file to an Azure storage account, and also pull files down and list them, out as well.
 
 ![image](https://user-images.githubusercontent.com/38886930/127923416-dec1e99a-011b-488b-9264-d13dc6156db3.png)
+
+### Status
 [![CircleCI](https://circleci.com/gh/JustJordanT/cloudFileUploader/tree/circleci-project-setup.svg?style=svg)](https://circleci.com/gh/JustJordanT/cloudFileUploader/tree/circleci-project-setup)
 
 ## Roadmap
