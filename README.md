@@ -19,6 +19,8 @@
 - [ ] Implament Open Telemetry.
 - [ ] Implament Logging.
 - [x] Implament CircleCI CI/CD
+- [ ] Implament SendGrid
+- [ ] Implament Key Value store.
   
 ## Usage/Examples
 
