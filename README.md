@@ -17,7 +17,7 @@
 - [ ] Implament Clean Architecture.
 - [ ] Implament EFCore For Logging.
 - [ ] Implament Open Telemetry. [Grafana](https://grafana.com/),[Seq](https://datalust.co/seq)
-- [ ] mplament [Logging Serilog]https://serilog.net/)
+- [ ] mplament [Logging Serilog](https://serilog.net/)
 - [x] Implament [CircleCI CI/CD](https://circleci.com/)
 - [ ] Implament [SendGrid](https://app.sendgrid.com/login)
 - [ ] Implament Key Value store.
