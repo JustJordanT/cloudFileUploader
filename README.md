@@ -8,18 +8,18 @@
 
 ## Roadmap
 
-- [ ] {Implament Dapr.}(https://dapr.io/)
-- [ ] {Implament Tye.}(https://github.com/dotnet/tye)
-- [ ] {Implament Polly.}(https://github.com/App-vNext/Polly)
+- [ ] Implament [Dapr](https://dapr.io/)
+- [ ] Implament [Tye](https://github.com/dotnet/tye)
+- [ ] Implament [Polly](https://github.com/App-vNext/Polly)
 - [X] Implament BackEnd API.
 - [ ] Implament FrontEnd.
 - [ ] Implament Authentication.
 - [ ] Implament Clean Architecture.
 - [ ] Implament EFCore For Logging.
-- [ ] Implament Open Telemetry . {Grafana}(https://grafana.com/)
-- [ ] {mplament Logging Serilog}(https://serilog.net/)
-- [x] {Implament CircleCI CI/CD}(https://circleci.com/)
-- [ ] Implament {SendGrid}(https://app.sendgrid.com/login)
+- [ ] Implament Open Telemetry. [Grafana](https://grafana.com/),[Seq](https://datalust.co/seq)
+- [ ] mplament [Logging Serilog]https://serilog.net/)
+- [x] Implament [CircleCI CI/CD](https://circleci.com/)
+- [ ] Implament [SendGrid](https://app.sendgrid.com/login)
 - [ ] Implament Key Value store.
   
 ## Usage/Examples
