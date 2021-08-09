@@ -21,6 +21,7 @@
 - [x] Implament [CircleCI CI/CD](https://circleci.com/)
 - [ ] Implament [SendGrid](https://app.sendgrid.com/login)
 - [ ] Implament Key Value store.
+- [ ] Implament [FeatureFlag](https://docs.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-dotnet-core?tabs=core5x).
   
 ## Usage/Examples
 
