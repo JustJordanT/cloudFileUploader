@@ -5,9 +5,16 @@
 
 ## Roadmap
 
-- 
-
-- 
+- [ ] Implament Dapr.
+- [ ] Implament Tye.
+- [ ] Implament Polly.
+- [ ] Implament BackEnd API.
+- [ ] Implament FrontEnd.
+- [ ] Implament Authentication.
+- [ ] Implament Clean Architecture.
+- [ ] Implament EFCore For Logging.
+- [ ] Implament Open Telemetry.
+- [ ] Implament Logging.
   
 ## Usage/Examples
 
