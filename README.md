@@ -22,7 +22,7 @@
 - [ ] Implament [SendGrid](https://app.sendgrid.com/login)
 - [ ] Implament Key Value store.
 - [ ] Implament [FeatureFlag](https://docs.microsoft.com/en-us/azure/azure-app-configuration/use-feature-flags-dotnet-core?tabs=core5x).
-- [ ] Implament [Zipkin](https://zipkin.io/)
+- [ ] Implament [Zipkin](https://zipkin.io/), [Opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet)
   
 ## Usage/Examples
 
