@@ -32,6 +32,18 @@ namespace cfuWebUI.Controllers
         {
             return View();
         }
+        
+        public IActionResult FileUploader()
+        {
+            return View();
+        }
+        
+        public IActionResult GetFiles()
+        {
+            return View();
+        }
+        
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
