@@ -1,9 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
-    </PropertyGroup>
+      <UserSecretsId>606aebfe-968a-44ea-8916-ae248badf2e0</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Azure.Storage.Blobs" Version="12.9.1" />

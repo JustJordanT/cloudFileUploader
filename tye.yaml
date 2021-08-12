@@ -3,10 +3,14 @@
 #
 # when you've given us a try, we'd love to know what you think:
 #    https://aka.ms/AA7q20u
-#
+# https://github.com/dotnet/tye/blob/main/docs/reference/schema.md
 name: cloudfileuploader
 services:
-- name: cloudfileuploader
-  project: cloudFileUploader/cloudFileUploader.csproj
 - name: cfuapi
   project: cfuAPI/cfuAPI.csproj
+  bindings:
+    - port: 5002
+- name: cfuwebui
+  project: cfuWebUI/cfuWebUI.csproj
+  bindings:
+    - port: 5001
