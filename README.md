@@ -9,7 +9,7 @@
 ## Roadmap
 
 - [ ] Implament [Dapr](https://dapr.io/)
-- [ ] Implament [Tye](https://github.com/dotnet/tye)
+- [X] Implament [Tye](https://github.com/dotnet/tye)
 - [ ] Implament [Polly](https://github.com/App-vNext/Polly)
 - [X] Implament BackEnd API.
 - [ ] Implament FrontEnd.
