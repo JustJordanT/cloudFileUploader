@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using cfuWebUI.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 
 namespace cfuWebUI
 {
@@ -25,16 +27,20 @@ namespace cfuWebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            
-            //https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-5.0
-            services.AddHttpClient("ViewFiles", c =>
+            // services.AddControllers().AddNewtonsoftJson();
+            services.AddHttpClient<BlobActionsController>(client =>
             {
-                c.BaseAddress = new Uri("https://localhost:5002");
-                // Github API versioning
-                // c.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
-                // Github requires a user-agent
-                // c.DefaultRequestHeaders.Add("User-Agent", "HttpClientFactory-Sample");
+                client.BaseAddress = Configuration.GetServiceUri("cfuAPI");
             });
+            //https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?view=aspnetcore-5.0
+            // services.AddHttpClient("ViewFiles", c =>
+            // {
+            //     c.BaseAddress = new Uri("https://localhost:5002");
+            //     // Github API versioning
+            //     // c.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
+            //     // Github requires a user-agent
+            //     // c.DefaultRequestHeaders.Add("User-Agent", "HttpClientFactory-Sample");
+            // });
 
 
         }
