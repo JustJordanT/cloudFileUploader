@@ -5,7 +5,7 @@
 
 ### Status
 [![CircleCI](https://circleci.com/gh/JustJordanT/cloudFileUploader/tree/master.svg?style=svg)](https://circleci.com/gh/JustJordanT/cloudFileUploader/tree/master)
-
+[![wakatime](https://wakatime.com/badge/github/JustJordanT/cloudFileUploader.svg)](https://wakatime.com/badge/github/JustJordanT/cloudFileUploader)
 ## Roadmap
 
 - [ ] Implament [Dapr](https://dapr.io/)
