@@ -12,6 +12,7 @@
 - [X] Implament [Tye](https://github.com/dotnet/tye)
 - [ ] Implament [Polly](https://github.com/App-vNext/Polly)
 - [X] Implament BackEnd API.
+- [ ] Implament Basis Theory Tokenization
 - [ ] Implament FrontEnd.
 - [ ] Implament Authentication.
 - [ ] Implament Clean Architecture.
